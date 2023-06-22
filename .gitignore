@@ -45,3 +45,5 @@ dist/
 
 # JetBrains folder
 .idea
+
+.next
