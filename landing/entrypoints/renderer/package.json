@@ -1,0 +1,25 @@
+{
+  "name": "@mom-remember/entrypoint",
+  "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "files": [
+    "dist/",
+    "next.config.js"
+  ],
+  "scripts": {
+    "build": "yarn next build src --no-lint",
+    "dev": "yarn next dev src",
+    "start": "yarn next start src"
+  },
+  "dependencies": {
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "4.6.2"
+  }
+}
