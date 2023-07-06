@@ -1675,10 +1675,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mom-remember/entrypoint@workspace:landing/entrypoints/renderer"
   dependencies:
-    "@types/node": "npm:^20.3.1"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    next: "npm:^13.4.7"
+    "@types/node": "npm:18"
+    "@types/react": "npm:^18.2.9"
+    "@types/react-dom": "npm:^18.2.4"
+    next: "npm:^13.4.4"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:4.6.2"
@@ -2081,6 +2081,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:18":
+  version: 18.16.19
+  resolution: "@types/node@npm:18.16.19"
+  checksum: 3ed2cce61992ec42a3700961f58942c723fa4430e548e6bb4d656e5a1e51a2df2a0a752fd84725f644aef09fa9c9818ef7b20d5d28bf2d79cf9fbf659cd8d4b1
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:20.2.5":
   version: 20.2.5
   resolution: "@types/node@npm:20.2.5"
@@ -2092,13 +2099,6 @@ __metadata:
   version: 18.16.8
   resolution: "@types/node@npm:18.16.8"
   checksum: d53d0a89c2574f08f6ee2fb075404e3fb0a4d94c920dfc7bf45a98c54f5ee5806496782fe70ff3a9eccf8560ac108c2d974fa0bfab2b08dac0042f7463ae3ac4
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.3.1":
-  version: 20.3.1
-  resolution: "@types/node@npm:20.3.1"
-  checksum: 262e63e934b31335efdd0cb9c6b46e20c0bfa826952f670596ca8621d21d29382ff701e1afdd83f43eff06b42f43a054617ed835b074fb56f61bf1150e9711d5
   languageName: node
   linkType: hard
 
@@ -2123,7 +2123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18":
+"@types/react-dom@npm:^18.2.4":
   version: 18.2.6
   resolution: "@types/react-dom@npm:18.2.6"
   dependencies:
@@ -2132,7 +2132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18":
+"@types/react@npm:*, @types/react@npm:^18.2.9":
   version: 18.2.14
   resolution: "@types/react@npm:18.2.14"
   dependencies:
@@ -2140,17 +2140,6 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 8ad8b78f077bb29ccb7b2dfe86a642ac693ed8cee77e39bdeae2ccf3c4d82895fcf2dbb150de5485a95445bbdec96565eaf1abb7bff9a5db19283dfd5e3ffe5a
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^18.2.13":
-  version: 18.2.13
-  resolution: "@types/react@npm:18.2.13"
-  dependencies:
-    "@types/prop-types": "npm:*"
-    "@types/scheduler": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 8bb80cc0bc8eeae29c57ac5f63c040aea77da06c380b8d7647666bfd07ae3a114b24c33081a2b374c7361b155b44bcfbc715835190a21f5da67f0ba7a6e840c4
   languageName: node
   linkType: hard
 
@@ -6811,7 +6800,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^13.4.7":
+"next@npm:^13.4.4":
   version: 13.4.7
   resolution: "next@npm:13.4.7"
   dependencies:
@@ -8205,7 +8194,6 @@ __metadata:
     "@jest/core": "npm:^27.4.5"
     "@types/eslint": "npm:^8.40.0"
     "@types/node": "npm:20.2.5"
-    "@types/react": "npm:^18.2.13"
     csstype: "npm:^3.1.2"
     eslint: "npm:8.18.0"
     husky: "npm:^8.0.3"

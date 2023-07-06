@@ -39,7 +39,6 @@ const RAW_RUNTIME_STATE =
           ["@jest/core", "virtual:e82efaeb5dbad3cc20561562a12571d1e6ab3b0e3e16ee76fe3fbc78f117981828ff47b8e7cf32973a7efbf625114ac6c926b7c54a2ddba69de3de5d64ffe7f6#npm:27.5.1"],\
           ["@types/eslint", "npm:8.40.0"],\
           ["@types/node", "npm:20.2.5"],\
-          ["@types/react", "npm:18.2.13"],\
           ["csstype", "npm:3.1.2"],\
           ["eslint", "npm:8.18.0"],\
           ["husky", "npm:8.0.3"],\
@@ -2201,7 +2200,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./landing/entrypoints/renderer/",\
         "packageDependencies": [\
           ["@mom-remember/entrypoint", "workspace:landing/entrypoints/renderer"],\
-          ["@types/node", "npm:20.3.1"],\
+          ["@types/node", "npm:18.16.19"],\
           ["@types/react", "npm:18.2.14"],\
           ["@types/react-dom", "npm:18.2.6"],\
           ["next", "virtual:a25b70e3c9755f7c4e8173e5e5d5da2160736e08be03dd6fbb8dd7dc5494c93e537599550f4b5bb5fd9faab19d38515f635408f3d71089cd9d5be6ae6521d96c#npm:13.4.7"],\
@@ -2663,6 +2662,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:18.16.19", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-18.16.19-aada4da69c-9.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:18.16.19"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:18.16.8", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-18.16.8-1b8b44c282-9.zip/node_modules/@types/node/",\
         "packageDependencies": [\
@@ -2674,13 +2680,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-20.2.5-0014d2d9ce-9.zip/node_modules/@types/node/",\
         "packageDependencies": [\
           ["@types/node", "npm:20.2.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:20.3.1", {\
-        "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-20.3.1-86012346c0-9.zip/node_modules/@types/node/",\
-        "packageDependencies": [\
-          ["@types/node", "npm:20.3.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2713,16 +2712,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:18.2.13", {\
-        "packageLocation": "../../../.yarn/berry/cache/@types-react-npm-18.2.13-f7110efddb-9.zip/node_modules/@types/react/",\
-        "packageDependencies": [\
-          ["@types/react", "npm:18.2.13"],\
-          ["@types/prop-types", "npm:15.7.5"],\
-          ["@types/scheduler", "npm:0.16.3"],\
-          ["csstype", "npm:3.1.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:18.2.14", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-react-npm-18.2.14-4d72cc1c1d-9.zip/node_modules/@types/react/",\
         "packageDependencies": [\
@@ -10028,7 +10017,6 @@ const RAW_RUNTIME_STATE =
           ["@jest/core", "virtual:e82efaeb5dbad3cc20561562a12571d1e6ab3b0e3e16ee76fe3fbc78f117981828ff47b8e7cf32973a7efbf625114ac6c926b7c54a2ddba69de3de5d64ffe7f6#npm:27.5.1"],\
           ["@types/eslint", "npm:8.40.0"],\
           ["@types/node", "npm:20.2.5"],\
-          ["@types/react", "npm:18.2.13"],\
           ["csstype", "npm:3.1.2"],\
           ["eslint", "npm:8.18.0"],\
           ["husky", "npm:8.0.3"],\

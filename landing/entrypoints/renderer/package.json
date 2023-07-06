@@ -12,14 +12,14 @@
     "start": "yarn next start src"
   },
   "dependencies": {
-    "next": "^13.4.7",
+    "next": "^13.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.3.1",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "18",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
     "typescript": "4.6.2"
   }
 }
