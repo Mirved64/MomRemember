@@ -288,6 +288,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@atls-ui-proto/theme@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "@atls-ui-proto/theme@npm:0.0.9"
+  peerDependencies:
+    "@emotion/react": ^11.1.5
+    react: ^17.0.1
+  checksum: 27425bcd97c7be38d8c296ff6d37f9e0e9d610cc4b8bf28cdc4eb754f6a3f0635904d00f58ae9fd160279b015b350eaf98e293f8227414f24be7a64d1413f063
+  languageName: node
+  linkType: hard
+
 "@atls/code-service@npm:^0.0.20":
   version: 0.0.20
   resolution: "@atls/code-service@npm:0.0.20"
@@ -3996,6 +4006,24 @@ __metadata:
     react-dom: "npm:^18.2.0"
     styled-components: "npm:^6.0.2"
     styled-system: "npm:^5.1.5"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
+"@ui/theme@workspace:ui/theme":
+  version: 0.0.0-use.local
+  resolution: "@ui/theme@workspace:ui/theme"
+  dependencies:
+    "@atls-ui-proto/theme": "npm:^0.0.9"
+    "@emotion/css": "npm:^11.11.0"
+    "@emotion/react": "npm:^11.11.1"
+    "@emotion/styled": "npm:^11.11.0"
+    "@types/react": "npm:^18.2.9"
+    "@types/react-dom": "npm:^18.2.4"
+    "@types/styled-system": "npm:^5.1.16"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
   peerDependencies:
     react: "*"
   languageName: unknown

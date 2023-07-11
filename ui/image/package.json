@@ -6,11 +6,6 @@
   "dependencies": {
     "@atls-ui-parts/image": "^0.0.4"
   },
-  "peerDependencies": {
-    "@emotion/styled": "*",
-    "react": "*",
-    "styled-system": "*"
-  },
   "devDependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -18,5 +13,10 @@
     "@types/styled-system": "^5.1.16",
     "react": "^18.2.0",
     "styled-system": "^5.1.5"
+  },
+  "peerDependencies": {
+    "@emotion/styled": "*",
+    "react": "*",
+    "styled-system": "*"
   }
 }
