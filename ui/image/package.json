@@ -1,0 +1,22 @@
+{
+  "name": "@ui/image",
+  "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@atls-ui-parts/image": "^0.0.4"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/react": "^18.2.9",
+    "@types/styled-system": "^5.1.16",
+    "react": "^18.2.0",
+    "styled-system": "^5.1.5"
+  },
+  "peerDependencies": {
+    "@emotion/styled": "*",
+    "react": "*",
+    "styled-system": "*"
+  }
+}

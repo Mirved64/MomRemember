@@ -1,0 +1,22 @@
+{
+  "name": "@ui/icons",
+  "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "main": "src/index.ts",
+  "scripts": {
+    "generate-icons": "generate-icons src/ -i ./icons"
+  },
+  "dependencies": {
+    "@atls-ui-generators/icons": "^0.0.4"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
+    "glob": "^8.0.3",
+    "glob-promise": "6.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
